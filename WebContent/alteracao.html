@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Alteração de produto</title>
+</head>
+
+<body>
+	<form action="AlterarProduto.do" method="post">
+		<h1>Alteração de produto</h1>
+		<div style="margin-bottom: 1rem;">
+			Código do produto: <input type="number" name="codigo_pro" required>
+		</div>
+		<h2 style="margin: 1rem 0;">Novos dados do produto:</h2>
+		<div style="margin-bottom: 1rem;">
+			Nome: <input type="text" name="name" required>
+		</div>
+		<div style="margin-bottom: 1rem;">
+			Descrição: <input type="text" name="description" required>
+		</div>
+		<div style="margin-bottom: 1rem;">
+			Valor: <input type="number" name="value" required>
+		</div>
+		<div style="margin-bottom: 1rem;">
+			Estoque: <input type="number" name="stock_prod" required>
+		</div>
+		<div>
+			<input type="submit" value="Atualizar dados">
+		</div>
+	</form>
+	<br>
+	<br>
+	<a href="index.html">Voltar</a>
+</body>
+
+</html>
